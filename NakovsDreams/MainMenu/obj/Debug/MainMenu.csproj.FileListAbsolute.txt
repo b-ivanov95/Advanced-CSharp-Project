@@ -1,0 +1,9 @@
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\bin\Debug\MainMenu.exe.config
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\bin\Debug\MainMenu.exe
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\bin\Debug\MainMenu.pdb
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.csprojResolveAssemblyReference.cache
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.Properties.Resources.resources
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.csproj.GenerateResource.Cache
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.exe
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.pdb
+F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.MainMenu.resources
