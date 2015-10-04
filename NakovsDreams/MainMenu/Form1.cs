@@ -71,6 +71,11 @@ namespace MainMenu
             Application.Run(new Instructions());
         }
 
+        public void InitMainGame() 
+        {
+
+            Application.Run(new MainGame());
+        }
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             // starting new Thread in order to load Instructions Form
@@ -84,6 +89,14 @@ namespace MainMenu
         {
             this.Close();
 
+        }
+
+        private void StartGame_Click(object sender, EventArgs e)
+        {
+            // starting new Thread in order to load main Game Form
+            System.Threading.Thread i = new System.Threading.Thread(new System.Threading.ThreadStart(InitMainGame));
+            this.Close();
+            i.Start();
         }
 
         

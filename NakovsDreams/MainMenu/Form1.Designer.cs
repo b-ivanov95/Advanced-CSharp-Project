@@ -109,6 +109,7 @@
             this.StartGame.Size = new System.Drawing.Size(288, 56);
             this.StartGame.TabIndex = 1;
             this.StartGame.TabStop = false;
+            this.StartGame.Click += new System.EventHandler(this.StartGame_Click);
             this.StartGame.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
             this.StartGame.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
@@ -139,6 +140,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nakov\'s Dreams";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

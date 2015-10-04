@@ -73,6 +73,26 @@ namespace MainMenu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cartoon_thought_bubble_md {
+            get {
+                object obj = ResourceManager.GetObject("cartoon-thought-bubble-md", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartoon_thought_bubble_mdsmaller {
+            get {
+                object obj = ResourceManager.GetObject("cartoon-thought-bubble-mdsmaller", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cooltext139703391011097 {
             get {
                 object obj = ResourceManager.GetObject("cooltext139703391011097", resourceCulture);
@@ -296,6 +316,16 @@ namespace MainMenu.Properties {
         internal static System.Drawing.Bitmap InstructionsFormatedShadow {
             get {
                 object obj = ResourceManager.GetObject("InstructionsFormatedShadow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smallSheep {
+            get {
+                object obj = ResourceManager.GetObject("smallSheep", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

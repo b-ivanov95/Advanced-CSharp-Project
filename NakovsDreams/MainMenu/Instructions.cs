@@ -42,5 +42,10 @@ namespace MainMenu
             this.Close();
             i.Start();
         }
+
+        private void Instructions_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
