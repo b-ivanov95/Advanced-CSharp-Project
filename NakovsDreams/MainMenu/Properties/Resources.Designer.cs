@@ -203,6 +203,16 @@ namespace MainMenu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap greenTickSmall {
+            get {
+                object obj = ResourceManager.GetObject("greenTickSmall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HIghscoresFinal {
             get {
                 object obj = ResourceManager.GetObject("HIghscoresFinal", resourceCulture);
@@ -383,6 +393,36 @@ namespace MainMenu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap level0 {
+            get {
+                object obj = ResourceManager.GetObject("level0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap level1 {
+            get {
+                object obj = ResourceManager.GetObject("level1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap level2 {
+            get {
+                object obj = ResourceManager.GetObject("level2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap old_paper_scroll {
             get {
                 object obj = ResourceManager.GetObject("old-paper-scroll", resourceCulture);
@@ -506,6 +546,16 @@ namespace MainMenu.Properties {
         internal static System.Drawing.Bitmap White_Stupid_Cute_Cartoon_Sheep {
             get {
                 object obj = ResourceManager.GetObject("White_Stupid_Cute_Cartoon_Sheep", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap XResized {
+            get {
+                object obj = ResourceManager.GetObject("XResized", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

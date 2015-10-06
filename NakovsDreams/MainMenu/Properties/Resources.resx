@@ -118,11 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="greenTickSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greenTickSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cooltext139711692318724" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cooltext139711692318724.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="InGameWrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\InGameWrong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Instructions2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Instructions2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XResized" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XResized.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HIghscoresFinalShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HIghscoresFinalShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,11 +151,14 @@
   <data name="cooltext139703443802495" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cooltext139703443802495.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rightThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="backgroundFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backgroundFinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StartGameFormated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartGameFormated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="InGameWrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InGameWrong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ExitFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ExitFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +169,20 @@
   <data name="ExitFormatedShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ExitFormatedShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ExitFinalShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitFinalShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StartGameFormated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartGameFormated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ExitFinalShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitFinalShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ExitFormated" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ExitFormated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartGameNewFormated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartGameNewFormated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cartoon-thought-bubble-mdsmaller" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cartoon-thought-bubble-mdsmaller.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,14 +199,20 @@
   <data name="InstructionsFinalShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstructionsFinalShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StartGameFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartGameFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cooltext139711733524693" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cooltext139711733524693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StartGameFinalShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StartGameFinalShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Instructions3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Instructions3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Instructions1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Instructions1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HighscoresFormatedShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HighscoresFormatedShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +226,14 @@
   <data name="HomeMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HomeMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="old-paper-scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\old-paper-scroll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cooltext139711253343163" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cooltext139711253343163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Stupid_Cute_Cartoon_Sheep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White_Stupid_Cute_Cartoon_Sheep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HIghscoresFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HIghscoresFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +241,8 @@
   <data name="InstructionsFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InstructionsFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StartGameNewFormated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartGameNewFormated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="leftThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StartGameFormatedShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StartGameFormatedShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,34 +250,22 @@
   <data name="cartoon-thought-bubble-md" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cartoon-thought-bubble-md.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="old-paper-scroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\old-paper-scroll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="White_Stupid_Cute_Cartoon_Sheep" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\White_Stupid_Cute_Cartoon_Sheep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Instructions1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Instructions1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Instructions2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Instructions2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Instructions3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Instructions3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Instructions4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Instructions4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="leftThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StartGameFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartGameFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="level0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rightThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rightThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="level1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="level2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

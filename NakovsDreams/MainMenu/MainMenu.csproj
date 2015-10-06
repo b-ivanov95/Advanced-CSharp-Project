@@ -232,6 +232,21 @@
   <ItemGroup>
     <None Include="Resources\rightThin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenTickSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XResized.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\level0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\level1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\level2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
