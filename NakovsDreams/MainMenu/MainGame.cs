@@ -53,5 +53,18 @@ namespace MainMenu
         {
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // starting new Thread in order to load Instructions Form
+            System.Threading.Thread i = new System.Threading.Thread(new System.Threading.ThreadStart(BackToMain));
+            this.Close();
+            i.Start();
+        }
+
+        private void BackToMain()
+        {
+            Application.Run(new MainMenu());
+        }
     }
 }
