@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MainMenu;
+using MainMenu.Properties;
 
 namespace MainMenu
 {
@@ -37,22 +38,22 @@ namespace MainMenu
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
         {
-            this.pictureBox4.BackgroundImage = (Properties.Resources.InstructionsFinalShadow);
+            this.pictureBox4.BackgroundImage = Resources.InstructionsFinalShadow;
         }
 
         private void pictureBox4_MouseLeave(object sender, EventArgs e)
         {
-            this.pictureBox4.BackgroundImage = (Properties.Resources.InstructionsFinal);
+            this.pictureBox4.BackgroundImage = Resources.InstructionsFinal;
         }
 
         private void pictureBox5_MouseHover(object sender, EventArgs e)
         {
-            this.pictureBox5.BackgroundImage = (Properties.Resources.HIghscoresFinalShadow);
+            this.pictureBox5.BackgroundImage = Resources.HIghscoresFinalShadow;
         }
 
         private void pictureBox5_MouseLeave(object sender, EventArgs e)
         {
-            this.pictureBox5.BackgroundImage = (Properties.Resources.HIghscoresFinal);
+            this.pictureBox5.BackgroundImage = Resources.HIghscoresFinal;
         }
 
         private void pictureBox6_MouseHover(object sender, EventArgs e)
@@ -97,6 +98,26 @@ namespace MainMenu
             System.Threading.Thread i = new System.Threading.Thread(new System.Threading.ThreadStart(InitMainGame));
             this.Close();
             i.Start();
+        }
+
+        private void StartGame_MouseEnter(object sender, EventArgs e)
+        {
+            StartGame.BackgroundImage = (Properties.Resources.StartGameFinalShadow);
+        }
+
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox4.BackgroundImage = Resources.InstructionsFinalShadow;
+        }
+
+        private void pictureBox5_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox5.BackgroundImage = Resources.HIghscoresFinalShadow;
+        }
+
+        private void pictureBox6_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox6.BackgroundImage = (Properties.Resources.ExitFinalShadow);
         }
 
         

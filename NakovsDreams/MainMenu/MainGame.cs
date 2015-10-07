@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MainMenu.Properties;
 
 namespace MainMenu
 {
@@ -65,6 +66,16 @@ namespace MainMenu
         private void BackToMain()
         {
             Application.Run(new MainMenu());
+        }
+
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox4.BackgroundImage = Resources.ExitFinalShadow;
+        }
+
+        private void pictureBox4_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox4.BackgroundImage = Resources.ExitFinal;
         }
     }
 }
