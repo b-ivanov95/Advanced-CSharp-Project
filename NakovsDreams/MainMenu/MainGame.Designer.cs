@@ -44,6 +44,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.hint = new System.Windows.Forms.Label();
+            this.sleepMeter = new System.Windows.Forms.ProgressBar();
+            this.points = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.redCross)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenTick)).BeginInit();
@@ -58,11 +62,11 @@
             // 
             this.currentSheepValue.AutoSize = true;
             this.currentSheepValue.BackColor = System.Drawing.Color.White;
-            this.currentSheepValue.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentSheepValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentSheepValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(49)))), ((int)(((byte)(112)))));
-            this.currentSheepValue.Location = new System.Drawing.Point(223, 304);
+            this.currentSheepValue.Location = new System.Drawing.Point(265, 302);
             this.currentSheepValue.Name = "currentSheepValue";
-            this.currentSheepValue.Size = new System.Drawing.Size(153, 23);
+            this.currentSheepValue.Size = new System.Drawing.Size(154, 29);
             this.currentSheepValue.TabIndex = 2;
             this.currentSheepValue.Text = "sheep value";
             this.currentSheepValue.Click += new System.EventHandler(this.label1_Click);
@@ -70,11 +74,11 @@
             // SheepCountLabel
             // 
             this.SheepCountLabel.AutoSize = true;
-            this.SheepCountLabel.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SheepCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SheepCountLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.SheepCountLabel.Location = new System.Drawing.Point(182, 126);
             this.SheepCountLabel.Name = "SheepCountLabel";
-            this.SheepCountLabel.Size = new System.Drawing.Size(179, 23);
+            this.SheepCountLabel.Size = new System.Drawing.Size(147, 25);
             this.SheepCountLabel.TabIndex = 4;
             this.SheepCountLabel.Text = "Sheep count: ";
             this.SheepCountLabel.Click += new System.EventHandler(this.label1_Click_1);
@@ -87,33 +91,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(346, 126);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 23);
+            this.label1.Size = new System.Drawing.Size(24, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(182, 197);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(231, 23);
+            this.label2.Size = new System.Drawing.Size(186, 25);
             this.label2.TabIndex = 8;
             this.label2.Text = "Next sheep value:";
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(49)))), ((int)(((byte)(112)))));
             this.textBox1.Location = new System.Drawing.Point(419, 192);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 28);
+            this.textBox1.Size = new System.Drawing.Size(154, 30);
             this.textBox1.TabIndex = 9;
             // 
             // pictureBox6
@@ -172,6 +176,8 @@
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox4_MouseEnter);
+            this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_MouseLeave);
             // 
             // pictureBox3
             // 
@@ -207,11 +213,52 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // hint
+            // 
+            this.hint.AccessibleName = "";
+            this.hint.AutoSize = true;
+            this.hint.Location = new System.Drawing.Point(494, 127);
+            this.hint.Name = "hint";
+            this.hint.Size = new System.Drawing.Size(0, 17);
+            this.hint.TabIndex = 14;
+            // 
+            // sleepMeter
+            // 
+            this.sleepMeter.Location = new System.Drawing.Point(570, 304);
+            this.sleepMeter.MarqueeAnimationSpeed = 30;
+            this.sleepMeter.Maximum = 30;
+            this.sleepMeter.Name = "sleepMeter";
+            this.sleepMeter.Size = new System.Drawing.Size(135, 23);
+            this.sleepMeter.TabIndex = 15;
+            // 
+            // points
+            // 
+            this.points.AutoSize = true;
+            this.points.Location = new System.Drawing.Point(118, 356);
+            this.points.Name = "points";
+            this.points.Size = new System.Drawing.Size(0, 17);
+            this.points.TabIndex = 16;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(466, 304);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 25);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "lives left:";
+            // 
             // MainGame
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(49)))), ((int)(((byte)(112)))));
-            this.ClientSize = new System.Drawing.Size(754, 769);
+            this.ClientSize = new System.Drawing.Size(754, 760);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.points);
+            this.Controls.Add(this.sleepMeter);
+            this.Controls.Add(this.hint);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.redCross);
             this.Controls.Add(this.greenTick);
@@ -260,5 +307,9 @@
         private System.Windows.Forms.PictureBox greenTick;
         private System.Windows.Forms.PictureBox redCross;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label hint;
+        private System.Windows.Forms.ProgressBar sleepMeter;
+        private System.Windows.Forms.Label points;
+        private System.Windows.Forms.Label label3;
     }
 }

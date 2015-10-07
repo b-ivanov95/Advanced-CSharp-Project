@@ -9,3 +9,14 @@ F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMe
 F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.MainMenu.resources
 F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.Instructions.resources
 F:\SoftUni\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.MainGame.resources
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\bin\Debug\MainMenu.exe.config
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.exe
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.pdb
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\bin\Debug\MainMenu.exe
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\bin\Debug\MainMenu.pdb
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.csprojResolveAssemblyReference.cache
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.MainMenu.resources
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.Instructions.resources
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.MainGame.resources
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.Properties.Resources.resources
+C:\Users\Sasho\Documents\GitHub\Advanced-CSharp-Project\NakovsDreams\MainMenu\obj\Debug\MainMenu.csproj.GenerateResource.Cache

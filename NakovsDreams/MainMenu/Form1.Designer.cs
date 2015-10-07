@@ -55,6 +55,7 @@
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBox6.MouseEnter += new System.EventHandler(this.pictureBox6_MouseEnter);
             this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
             this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
             // 
@@ -69,6 +70,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(310, 60);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox5_MouseEnter);
             this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_MouseLeave);
             this.pictureBox5.MouseHover += new System.EventHandler(this.pictureBox5_MouseHover);
             // 
@@ -84,6 +86,7 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox4_MouseEnter);
             this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_MouseLeave);
             this.pictureBox4.MouseHover += new System.EventHandler(this.pictureBox4_MouseHover);
             // 
@@ -110,6 +113,7 @@
             this.StartGame.TabIndex = 1;
             this.StartGame.TabStop = false;
             this.StartGame.Click += new System.EventHandler(this.StartGame_Click);
+            this.StartGame.MouseEnter += new System.EventHandler(this.StartGame_MouseEnter);
             this.StartGame.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
             this.StartGame.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 

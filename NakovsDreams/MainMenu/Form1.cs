@@ -99,6 +99,26 @@ namespace MainMenu
             i.Start();
         }
 
+        private void StartGame_MouseEnter(object sender, EventArgs e)
+        {
+            this.StartGame.BackgroundImage = (Properties.Resources.StartGameFinalShadow);
+        }
+
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+            this.pictureBox4.BackgroundImage = (Properties.Resources.InstructionsFinalShadow);
+        }
+
+        private void pictureBox5_MouseEnter(object sender, EventArgs e)
+        {
+            this.pictureBox5.BackgroundImage = (Properties.Resources.HIghscoresFinalShadow);
+        }
+
+        private void pictureBox6_MouseEnter(object sender, EventArgs e)
+        {
+            this.pictureBox6.BackgroundImage = (Properties.Resources.ExitFinalShadow);
+        }
+
         
     }
 }

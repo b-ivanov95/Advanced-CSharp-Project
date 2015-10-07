@@ -129,5 +129,20 @@ namespace MainMenu
             this.Close();
             i.Start();
         }
+
+        private void pictureBox6_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox6.BackgroundImage = Resources.ExitFinalShadow;
+        }
+
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+            this.pictureBox4.BackgroundImage = Resources.right;
+        }
+
+        private void pictureBox5_MouseEnter(object sender, EventArgs e)
+        {
+            this.pictureBox5.BackgroundImage = Resources.left;
+        }
     }
 }
